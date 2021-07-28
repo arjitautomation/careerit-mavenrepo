@@ -31,6 +31,16 @@
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8090/repository/Sample_Snapshot/</url>
         </snapshotRepository>
+     <repository>
+  <id>srivasarjit</id>
+  <url>https://pkgs.dev.azure.com/srivasarjit/_packaging/srivasarjit/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
     </distributionManagement>
   <dependencies>
   	<dependency>
