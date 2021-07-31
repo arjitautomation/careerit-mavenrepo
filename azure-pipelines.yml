@@ -9,7 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-
 steps:
 
 - task: Maven@3
@@ -22,4 +21,4 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'deploy'
- - task: SonarQubeAnalyze@4   
+  
