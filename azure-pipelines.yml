@@ -11,7 +11,7 @@ pool:
 
 
 steps:
-- task: SonarQubeAnalyze@4
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -22,3 +22,4 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'deploy'
+ - task: SonarQubeAnalyze@4   
