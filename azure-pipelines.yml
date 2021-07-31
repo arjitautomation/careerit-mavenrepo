@@ -9,7 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+
 steps:
+- task: SonarQubeAnalyze@4
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
