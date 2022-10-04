@@ -27,8 +27,8 @@
   </build>
    <distributionManagement>    
      <repository>
-  <id>srivasarjit</id>
-  <url>https://pkgs.dev.azure.com/srivasarjit/_packaging/srivasarjit/maven/v1</url>
+  <id>maven</id>
+  <url>https://pkgs.dev.azure.com/arjitdevops/Devops/_packaging/maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
