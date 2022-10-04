@@ -1,8 +1,8 @@
 pipeline {
    
     agent any
-    tools {
-    maven 'maven-3.8.6' 
+    environment {
+    PATH="/opt/homebrew/Cellar/maven/3.8.6/libexec:$PATH"
   }
 
     stages {
