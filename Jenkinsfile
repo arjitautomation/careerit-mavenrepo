@@ -16,7 +16,8 @@ pipeline {
                 withMaven(maven: 'maven') {
                     sh 'mvn clean package'
                 }
-        }
+            }
+}
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
